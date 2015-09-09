@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9C7900E2-6304-480B-AEF2-176F21959D89</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NumberTrivial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F82AFC6DE8B2BE025900E4D86179EF3EE579F22C</key>
+		<string>https://github.com/manuelainc/NumberTrivial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NumberTrivial.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F82AFC6DE8B2BE025900E4D86179EF3EE579F22C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/manuelainc/NumberTrivial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F82AFC6DE8B2BE025900E4D86179EF3EE579F22C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F82AFC6DE8B2BE025900E4D86179EF3EE579F22C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NumberTrivial</string>
+		</dict>
+	</array>
+</dict>
+</plist>
