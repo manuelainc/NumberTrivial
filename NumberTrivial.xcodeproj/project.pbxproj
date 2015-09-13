@@ -13,6 +13,12 @@
 		9A7853561B9DD1F500430E5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7853551B9DD1F500430E5D /* Images.xcassets */; };
 		9A7853591B9DD1F500430E5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7853571B9DD1F500430E5D /* LaunchScreen.xib */; };
 		9A7853651B9DD1F500430E5D /* NumberTrivialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7853641B9DD1F500430E5D /* NumberTrivialTests.m */; };
+		9A7F03FE1BA587130052C84E /* MenuTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F03FD1BA587130052C84E /* MenuTabBarViewController.m */; };
+		9A7F04031BA58F4D0052C84E /* MathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F04021BA58F4D0052C84E /* MathViewController.m */; };
+		9A7F04061BA58F5B0052C84E /* TriviaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F04051BA58F5B0052C84E /* TriviaViewController.m */; };
+		9A7F04091BA58F670052C84E /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F04081BA58F670052C84E /* DateViewController.m */; };
+		9A7F040C1BA58F760052C84E /* YearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F040B1BA58F760052C84E /* YearViewController.m */; };
+		9A7F04101BA5A66A0052C84E /* JSONResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F040F1BA5A66A0052C84E /* JSONResponse.m */; };
 		9AEA2F391BA08787004B2D61 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA2F381BA08787004B2D61 /* MainMenuViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +44,18 @@
 		9A78535E1B9DD1F500430E5D /* NumberTrivialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberTrivialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7853631B9DD1F500430E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A7853641B9DD1F500430E5D /* NumberTrivialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberTrivialTests.m; sourceTree = "<group>"; };
+		9A7F03FC1BA587130052C84E /* MenuTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuTabBarViewController.h; path = Controllers/MenuTabBarViewController.h; sourceTree = "<group>"; };
+		9A7F03FD1BA587130052C84E /* MenuTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuTabBarViewController.m; path = Controllers/MenuTabBarViewController.m; sourceTree = "<group>"; };
+		9A7F04011BA58F4D0052C84E /* MathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MathViewController.h; path = Controllers/TabBarControllers/MathViewController.h; sourceTree = "<group>"; };
+		9A7F04021BA58F4D0052C84E /* MathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MathViewController.m; path = Controllers/TabBarControllers/MathViewController.m; sourceTree = "<group>"; };
+		9A7F04041BA58F5B0052C84E /* TriviaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriviaViewController.h; path = Controllers/TabBarControllers/TriviaViewController.h; sourceTree = "<group>"; };
+		9A7F04051BA58F5B0052C84E /* TriviaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TriviaViewController.m; path = Controllers/TabBarControllers/TriviaViewController.m; sourceTree = "<group>"; };
+		9A7F04071BA58F670052C84E /* DateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateViewController.h; path = Controllers/TabBarControllers/DateViewController.h; sourceTree = "<group>"; };
+		9A7F04081BA58F670052C84E /* DateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateViewController.m; path = Controllers/TabBarControllers/DateViewController.m; sourceTree = "<group>"; };
+		9A7F040A1BA58F760052C84E /* YearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YearViewController.h; path = Controllers/TabBarControllers/YearViewController.h; sourceTree = "<group>"; };
+		9A7F040B1BA58F760052C84E /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YearViewController.m; path = Controllers/TabBarControllers/YearViewController.m; sourceTree = "<group>"; };
+		9A7F040E1BA5A66A0052C84E /* JSONResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONResponse.h; path = Model/JSONResponse.h; sourceTree = "<group>"; };
+		9A7F040F1BA5A66A0052C84E /* JSONResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONResponse.m; path = Model/JSONResponse.m; sourceTree = "<group>"; };
 		9AEA2F371BA08787004B2D61 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = Controllers/MainMenuViewController.h; sourceTree = "<group>"; };
 		9AEA2F381BA08787004B2D61 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = Controllers/MainMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,8 +101,8 @@
 			children = (
 				9A78534C1B9DD1F500430E5D /* AppDelegate.h */,
 				9A78534D1B9DD1F500430E5D /* AppDelegate.m */,
-				9AEA2F371BA08787004B2D61 /* MainMenuViewController.h */,
-				9AEA2F381BA08787004B2D61 /* MainMenuViewController.m */,
+				9A7F040D1BA5A6510052C84E /* Model */,
+				9A7F03FF1BA58F060052C84E /* Controllers */,
 				9A7853521B9DD1F500430E5D /* Main.storyboard */,
 				9A7853551B9DD1F500430E5D /* Images.xcassets */,
 				9A7853571B9DD1F500430E5D /* LaunchScreen.xib */,
@@ -117,6 +135,42 @@
 				9A7853631B9DD1F500430E5D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A7F03FF1BA58F060052C84E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9AEA2F371BA08787004B2D61 /* MainMenuViewController.h */,
+				9AEA2F381BA08787004B2D61 /* MainMenuViewController.m */,
+				9A7F03FC1BA587130052C84E /* MenuTabBarViewController.h */,
+				9A7F03FD1BA587130052C84E /* MenuTabBarViewController.m */,
+				9A7F04001BA58F120052C84E /* TabBarControllers */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9A7F04001BA58F120052C84E /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A7F04011BA58F4D0052C84E /* MathViewController.h */,
+				9A7F04021BA58F4D0052C84E /* MathViewController.m */,
+				9A7F04041BA58F5B0052C84E /* TriviaViewController.h */,
+				9A7F04051BA58F5B0052C84E /* TriviaViewController.m */,
+				9A7F04071BA58F670052C84E /* DateViewController.h */,
+				9A7F04081BA58F670052C84E /* DateViewController.m */,
+				9A7F040A1BA58F760052C84E /* YearViewController.h */,
+				9A7F040B1BA58F760052C84E /* YearViewController.m */,
+			);
+			name = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		9A7F040D1BA5A6510052C84E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A7F040E1BA5A66A0052C84E /* JSONResponse.h */,
+				9A7F040F1BA5A66A0052C84E /* JSONResponse.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +222,7 @@
 				TargetAttributes = {
 					9A7853441B9DD1F500430E5D = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = S63AXZ6Y9D;
 					};
 					9A78535D1B9DD1F500430E5D = {
 						CreatedOnToolsVersion = 6.4;
@@ -219,9 +274,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7F04031BA58F4D0052C84E /* MathViewController.m in Sources */,
 				9A78534E1B9DD1F500430E5D /* AppDelegate.m in Sources */,
+				9A7F03FE1BA587130052C84E /* MenuTabBarViewController.m in Sources */,
 				9AEA2F391BA08787004B2D61 /* MainMenuViewController.m in Sources */,
 				9A78534B1B9DD1F500430E5D /* main.m in Sources */,
+				9A7F04061BA58F5B0052C84E /* TriviaViewController.m in Sources */,
+				9A7F04091BA58F670052C84E /* DateViewController.m in Sources */,
+				9A7F04101BA5A66A0052C84E /* JSONResponse.m in Sources */,
+				9A7F040C1BA58F760052C84E /* YearViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +410,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NumberTrivial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +423,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NumberTrivial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
