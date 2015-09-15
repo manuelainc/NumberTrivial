@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TriviaViewController : UIViewController
+@interface TriviaViewController : UIViewController<UITextFieldDelegate>
 
 @end

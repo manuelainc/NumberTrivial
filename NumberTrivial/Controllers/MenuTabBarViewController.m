@@ -17,17 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.delegate = self;
+    [self.navigationController setNavigationBarHidden:NO animated:NO];
+    self.navigationController.navigationBar.translucent = YES;
     
 }
 
 - (void)viewDidAppear:(BOOL)animated{
     
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
-    self.navigationController.navigationBar.translucent = YES;
+    [super viewDidAppear:animated];
+    
+
  
 }
 
 - (void)viewWillDisappear:(BOOL)animated{
+    
+    [super viewWillDisappear:animated];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
 }
 

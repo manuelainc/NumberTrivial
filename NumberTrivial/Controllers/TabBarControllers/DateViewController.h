@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DateViewController : UIViewController
+@interface DateViewController : UIViewController<UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate>
 
 @end

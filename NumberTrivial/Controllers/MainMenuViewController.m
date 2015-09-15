@@ -9,6 +9,7 @@
 #import "MainMenuViewController.h"
 #import "MenuTabBarViewController.h"
 
+
 @interface MainMenuViewController ()
 
 @property (nonatomic,strong) MenuTabBarViewController* menuTabBar;
@@ -19,25 +20,28 @@
 
 - (void)viewDidLoad{
    
+    [super viewDidLoad];
+    
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     _menuTabBar = (MenuTabBarViewController*)[sb instantiateViewControllerWithIdentifier:@"TabBarViewController"];
     self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
     [self.navigationController setNavigationBarHidden:YES animated:YES];
+    
+    for (UIView *view in [self.view subviews]) {
+        if ([view isKindOfClass:[UIButton class]]) {
+            
+            //            [view.layer setFrame:CGRectMake(view.frame.origin.x, view.frame.origin.y + (view.frame.size.height-view.frame.size.width)/2, view.frame.size.width, view.frame.size.width)];
+            [view.layer setCornerRadius:view.frame.size.width/6];
+        }
+    }
 
     
 }
 
 - (void)viewDidAppear:(BOOL)animated{
 
+    [super viewDidAppear:animated];
 
-    for (UIView *view in [self.view subviews]) {
-        if ([view isKindOfClass:[UIButton class]]) {
-            
-//            [view.layer setFrame:CGRectMake(view.frame.origin.x, view.frame.origin.y + (view.frame.size.height-view.frame.size.width)/2, view.frame.size.width, view.frame.size.width)];
-            [view.layer setCornerRadius:view.frame.size.width/3];
-
-        }
-    }
     
 
 }

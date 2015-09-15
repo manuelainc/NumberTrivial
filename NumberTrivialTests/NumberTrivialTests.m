@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "NumbersApiCommunicator.h"
 
 @interface NumberTrivialTests : XCTestCase
 
@@ -25,16 +26,10 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
-
+//- (void)testApiConnection{
+//    NumbersApiCommunicator *com = [[NumbersApiCommunicator alloc] init];
+//    com.getApiResponse;
+//    
+//    XCTAssertTrue(YES,@"Esta bien");
+//}
 @end

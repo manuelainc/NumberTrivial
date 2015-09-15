@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A653B581BA6C7D2004ABC5C /* NumbersApiCommunicatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A653B571BA6C7D2004ABC5C /* NumbersApiCommunicatorTests.m */; };
+		9A653B5E1BA6D6E5004ABC5C /* NumbersApiCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F04121BA5A8F30052C84E /* NumbersApiCommunicator.m */; };
 		9A78534B1B9DD1F500430E5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A78534A1B9DD1F500430E5D /* main.m */; };
 		9A78534E1B9DD1F500430E5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A78534D1B9DD1F500430E5D /* AppDelegate.m */; };
 		9A7853541B9DD1F500430E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7853521B9DD1F500430E5D /* Main.storyboard */; };
@@ -19,6 +21,7 @@
 		9A7F04091BA58F670052C84E /* DateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F04081BA58F670052C84E /* DateViewController.m */; };
 		9A7F040C1BA58F760052C84E /* YearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F040B1BA58F760052C84E /* YearViewController.m */; };
 		9A7F04101BA5A66A0052C84E /* JSONResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F040F1BA5A66A0052C84E /* JSONResponse.m */; };
+		9A7F04131BA5A8F30052C84E /* NumbersApiCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7F04121BA5A8F30052C84E /* NumbersApiCommunicator.m */; };
 		9AEA2F391BA08787004B2D61 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA2F381BA08787004B2D61 /* MainMenuViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A653B571BA6C7D2004ABC5C /* NumbersApiCommunicatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersApiCommunicatorTests.m; sourceTree = "<group>"; };
 		9A7853451B9DD1F500430E5D /* NumberTrivial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberTrivial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7853491B9DD1F500430E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A78534A1B9DD1F500430E5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		9A7F040B1BA58F760052C84E /* YearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YearViewController.m; path = Controllers/TabBarControllers/YearViewController.m; sourceTree = "<group>"; };
 		9A7F040E1BA5A66A0052C84E /* JSONResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONResponse.h; path = Model/JSONResponse.h; sourceTree = "<group>"; };
 		9A7F040F1BA5A66A0052C84E /* JSONResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONResponse.m; path = Model/JSONResponse.m; sourceTree = "<group>"; };
+		9A7F04111BA5A8F30052C84E /* NumbersApiCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumbersApiCommunicator.h; path = Model/NumbersApiCommunicator.h; sourceTree = "<group>"; };
+		9A7F04121BA5A8F30052C84E /* NumbersApiCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumbersApiCommunicator.m; path = Model/NumbersApiCommunicator.m; sourceTree = "<group>"; };
 		9AEA2F371BA08787004B2D61 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = Controllers/MainMenuViewController.h; sourceTree = "<group>"; };
 		9AEA2F381BA08787004B2D61 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = Controllers/MainMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +107,7 @@
 			children = (
 				9A78534C1B9DD1F500430E5D /* AppDelegate.h */,
 				9A78534D1B9DD1F500430E5D /* AppDelegate.m */,
+				9AFC1DAD1BA83A980094A4B0 /* View */,
 				9A7F040D1BA5A6510052C84E /* Model */,
 				9A7F03FF1BA58F060052C84E /* Controllers */,
 				9A7853521B9DD1F500430E5D /* Main.storyboard */,
@@ -124,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				9A7853641B9DD1F500430E5D /* NumberTrivialTests.m */,
+				9A653B571BA6C7D2004ABC5C /* NumbersApiCommunicatorTests.m */,
 				9A7853621B9DD1F500430E5D /* Supporting Files */,
 			);
 			path = NumberTrivialTests;
@@ -169,8 +177,17 @@
 			children = (
 				9A7F040E1BA5A66A0052C84E /* JSONResponse.h */,
 				9A7F040F1BA5A66A0052C84E /* JSONResponse.m */,
+				9A7F04111BA5A8F30052C84E /* NumbersApiCommunicator.h */,
+				9A7F04121BA5A8F30052C84E /* NumbersApiCommunicator.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		9AFC1DAD1BA83A980094A4B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +293,7 @@
 			files = (
 				9A7F04031BA58F4D0052C84E /* MathViewController.m in Sources */,
 				9A78534E1B9DD1F500430E5D /* AppDelegate.m in Sources */,
+				9A7F04131BA5A8F30052C84E /* NumbersApiCommunicator.m in Sources */,
 				9A7F03FE1BA587130052C84E /* MenuTabBarViewController.m in Sources */,
 				9AEA2F391BA08787004B2D61 /* MainMenuViewController.m in Sources */,
 				9A78534B1B9DD1F500430E5D /* main.m in Sources */,
@@ -290,6 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A653B5E1BA6D6E5004ABC5C /* NumbersApiCommunicator.m in Sources */,
+				9A653B581BA6C7D2004ABC5C /* NumbersApiCommunicatorTests.m in Sources */,
 				9A7853651B9DD1F500430E5D /* NumberTrivialTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
